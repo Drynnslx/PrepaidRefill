@@ -1,0 +1,18 @@
+@charset 'UTF-8';
+
+// 导航头部与底部绝对定位函数
+@import url('./func.less');
+@import url('./conf.less');
+  
+  
+  .mu-appbar {
+      .Position(fixed);
+      top: @diretion;
+  }
+  .mu-paper{
+      .Position(fixed);
+      bottom: @diretion;
+  }
+  .mu-content-block {
+      padding: 64px 16px 56px 16px;
+  }
